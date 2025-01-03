@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contactez_nous.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FPRO.FR</title>
+</head>
+<body>
+    <nav class = "navbar">
+        <div class = "logo"><h1>FPRO.FR</h1></div>
+            <ul class = "menu">
+                <li><a href="#" class = "Active">Vêtements</a></li>
+                <li><a href="#">Crampons</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#" class="fa-solid fa-user"></a></li>
+                <li><a href="#" class="fa-solid fa-cart-shopping"></a></li>
+            </ul>
+    </nav>
+    <main>
+        <section class="content">
+            <h1>Contactez nous</h1>
+            <table class="tableau">
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" id="nom" name="nom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom :</label></td>
+                    <td><input type="text" id="prenom" name="prenom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Adresse mail :</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message :</label></td>
+                    <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button>Envoyer</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>

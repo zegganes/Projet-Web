@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    padding: 25px 5%; /* Taille de la barre de naviguation*/
+    display: flex; /* Alignement des éléments horizontalement */
+    justify-content: space-between; /*espace entre les éléments*/
+    align-items: center;
+    position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
+    background-color: grey;
+}
+.navbar .logo .h1{
+    color: black;
+}
+.navbar .menu li{
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    margin-left : 20px;
+    color : black;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar .menu li .Active{
+    color : blue;
+}
+.content{
+    background-image: url(img/Contactez\ nous.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    height: 100vh;
+}
+h1{
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+.tableau{
+    background: grey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-color: blue;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkblue;
+}
