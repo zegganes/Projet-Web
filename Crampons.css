@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+.navbar{
+    padding: 25px 5%; /* Taille de la barre de naviguation*/
+    display: flex; /* Alignement des éléments horizontalement */
+    justify-content: space-between; /*espace entre les éléments*/
+    align-items: center;
+    position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
+    top: 0;
+    background-color: grey;
+}
+.navbar .logo .h1{
+    color: black;
+    cursor: pointer;
+}
+.navbar .menu li{
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    margin-left : 20px;
+    color : black;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar .menu li a:hover{
+    color: blue;
+}
+.navbar .menu li .Active{
+    color : blue;
+}
+.navbar .menu li .Active:hover{
+    color: darkblue;
+}
+main{
+    padding: 20px;
+}
+.articles{
+    display: flex;
+    justify-content: center;
+    gap: 50px; /*espacement entre chaque articles*/
+    flex-wrap: wrap; /*retour a la ligne si ne tient pas sur une ligne*/
+}
+.article{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /*le texte ne depasse pas la case*/
+    padding: 10px;
+}
+.article img{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.article .desc{
+    margin: 12px;
+    border: 1px solid grey;
+    border-radius: 10px; /*bord arrondi*/
+    width: 180px; /*taille de la box*/
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre pour bordure*/
+}
+.article .desc p{
+    margin: 5px;
+}
+.article .desc button{
+    padding: 5px;
+    background-color: grey;
+    border-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.article .desc button:hover{
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+footer{
+    text-align: end;
+    padding: 15px;
+}
+footer button{
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color: darkblue;
+    border-color: darkgrey;
+}
