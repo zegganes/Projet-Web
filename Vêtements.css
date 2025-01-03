@@ -11,10 +11,12 @@ body{
     justify-content: space-between; /*espace entre les éléments*/
     align-items: center;
     position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
+    top: 0;
     background-color: grey;
 }
 .navbar .logo .h1{
     color: black;
+    cursor: pointer;
 }
 .navbar .menu li{
     display: inline-block;
@@ -28,27 +30,41 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
+.navbar .menu li a:hover{
+    color: blue;
+}
 .navbar .menu li .Active{
     color : blue;
 }
-.produits_texte{
-    text-align: left;
-    font-size: 30px;
-    font-weight: 50px;
-    color: grey;
+.navbar .menu li .Active:hover{
+    color: darkblue;
 }
-.section_produits{
-    justify-content: space-between;
+main{
+    padding: 20px;
 }
-.article img{
+.articles{
+    display: flex;
+    justify-content: center;
+    gap: 50px; /*espacement entre chaque articles*/
+    flex-wrap: wrap; /*retour a la ligne si ne tient pas sur une ligne*/
+}
+.article{
+    background-color: white;
     border: 1px solid grey;
     border-radius: 10px;
+    width: 200px;
+    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /*le texte ne depasse pas la case*/
+    padding: 10px;
+}
+.article img{
+    width: 100%;
     margin: 10px;
     text-align: center;
 }
 .article .desc{
-    margin: 8px 0;
+    margin: 12px;
     border: 1px solid grey;
     border-radius: 10px; /*bord arrondi*/
     width: 180px; /*taille de la box*/
@@ -57,10 +73,34 @@ body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre pour bordure*/
 }
 .article .desc p{
-    margin: 5px 0;
-}
-.article .desc .achat{
     margin: 5px;
+}
+.article .desc button{
+    padding: 5px;
     background-color: grey;
     border-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.article .desc button:hover{
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+footer{
+    text-align: end;
+    padding: 15px;
+}
+footer button{
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color: darkblue;
+    border-color: darkgrey;
 }
