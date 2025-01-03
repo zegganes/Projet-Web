@@ -11,17 +11,12 @@ body{
     justify-content: space-between; /*espace entre les éléments*/
     align-items: center;
     position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
-    top: 0%;
-    z-index: 999;
     background-color: grey;
 }
 .navbar .logo .h1{
     color: black;
-    cursor: pointer;
-    position: relative;
 }
 .navbar .menu li{
-    list-style: none;
     display: inline-block;
 }
 .navbar .menu li a{
@@ -36,57 +31,36 @@ body{
 .navbar .menu li .Active{
     color : blue;
 }
-
 .produits_texte{
     text-align: left;
     font-size: 30px;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-left: 80px;
-    color: #424144;
+    font-weight: 50px;
+    color: grey;
 }
 .section_produits{
-    padding: 40px 5%;
-}
-.produits{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-.produits .carte{
-    width: 310px;
-    background: gray;
-    bottom: 0 10px 20px rgba(0, 0 ,0, 0.3);
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-.produits .carte .img{
-    height: 100px;
-    width: 10%;
-}
-.produits .carte .desc{
-    padding: 5px 20px;
-    opacity: 0.8;
-}
-.produits .carte .titre{
-    font-weight: 900;
-    font-size: 20px;
-    color: #424144;
-    padding: 0 20px;
-}
-.produits .carte .box{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
 }
-.produits .carte .prix{
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
+.article img{
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
 }
-.produits .carte .achat{
-    font-size: 13px;
-    font-weight: 900;
-    color: red;
-    padding: 10px 18px;
+.article .desc{
+    margin: 8px 0;
+    border: 1px solid grey;
+    border-radius: 10px; /*bord arrondi*/
+    width: 180px; /*taille de la box*/
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre pour bordure*/
+}
+.article .desc p{
+    margin: 5px 0;
+}
+.article .desc .achat{
+    margin: 5px;
+    background-color: grey;
+    border-color: grey;
 }
