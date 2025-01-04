@@ -5,13 +5,19 @@ body{
     display: inline-flexbox;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+main{
+    align-items: center;
+    text-align: center;
 }
 .navbar{
-    padding: 25px 5%; /* Taille de la barre de naviguation*/
+    padding: 15px 5%; /* Taille de la barre de naviguation*/
     display: flex; /* Alignement des éléments horizontalement */
     justify-content: space-between; /*espace entre les éléments*/
     align-items: center;
     position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
+    top: 0;
     background-color: grey;
 }
 .navbar .logo .h1{
@@ -29,11 +35,11 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-.navbar .menu li .Active{
-    color : blue;
+.navbar .menu li a:hover{
+    color : blue
 }
 .content{
-    background-image: url(img/Contactez\ nous.jpg);
+    background-image: url(img/Contactez_nous.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
@@ -41,7 +47,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: black;
     height: 100vh;
 }
 h1{
