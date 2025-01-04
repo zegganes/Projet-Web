@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0;/* pas de bord sur les cotés */
+    padding: 0;/* pas de bord sur les cotés */
     height: 100%;
     display: inline-flexbox;
     justify-content: center;
