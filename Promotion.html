@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FPRO.FR</title>
-        <link rel="stylesheet" href="Promotion.css">
-    </head>
-    <body>
-        <nav>
-            <h1>FPRO.FR</h1>
-            <div class="onglets">
-                 <a href="">Vêtements</a>
-                 <a href="">Crampons</a>
-                 <a href="">Prommotion</a>
-                 <a href="">Contactez nous</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Vêtements.css"> <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- la reference pour le panier et le logo du compte-->
+    <title>FPRO.FR</title>
+</head>
+<body>
+    <nav class = "navbar">
+        <div class = "logo"><h1>FPRO.FR</h1></div>
+            <ul class = "menu"> <!-- liste representant le Menu de la barre de naviguation la ou il y aura tout ces éléments sous forme d'element d'une liste-->
+                <li><a href="Vêtements.html"> <!-- Indique la page sur laquelle nous sommes -->Vêtements</a></li>
+                <li><a href="Crampons.html">Crampons</a><!--Lien hypertexte pour chaque éléments de la class menu --></li>
+                <li><a href="Promotion.html" class = "Active">Promotions</a></li>
+                <li><a href="#" class="fa-solid fa-user"></a></li>
+                <li><a href="#" class="fa-solid fa-cart-shopping"></a></li>
+            </ul>
+    </nav>
+    <main>
+        <div class = "articles"> <!-- Division ou il y aura tout les articles -->
+            <div class = "article"> <!-- Division de chaque article -->
+                <img src = "img/7.jpg" alt = "Gants de football"> <!-- Lien d'une image avec sa description -->
+                <div class="desc"> <!-- Division qui va permettre de modifié tout la description en meme temps et de créer une case -->
+                    <p>Gants Adidas Gardien gamme Elite</p>
+                    <p>39.99$</p>
+                    <button class ="achat">Acheter</button> <!-- Class avec un bouton pour le personnalisé -->
+                </div>
             </div>
-        </nav>
-        <header>
-            <h1>Promotion</h1>
-            <h4>LES MEILLEURS PROMOTION DES ARTICLES</h4>
-            <button>Parcourir</button>
-        </header>
-    </body>
+            <div class = "article">
+                <img src = "img/8.jpg" alt = "Ballon Ligue 1">
+                <div class="desc">
+                    <p>Ballon Football Ligue 2024/2025</p>
+                    <p>19.99$</p>
+                    <button class ="achat">Acheter</button>
+                </div>
+            </div>
+            <div class = "article">
+                <img src = "img/9.jpg" alt = "Protege Tibia">
+                <div class="desc">
+                    <p>Protege Tibia Adidas Noir</p>
+                    <p>14.99$</p>
+                    <button>Acheter</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer> 
+        <a href="Contactez_nous.html"><button>Contactez nous</button> <!-- Dans footer pour qu'il soit en bas de la page et qu'on ai plus qu'a le deplacer a droite -->
+    </footer>
+</body>
 </html>

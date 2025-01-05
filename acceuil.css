@@ -1,47 +1,113 @@
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: grey;
 }
 
-.header{
-    background-color: black;
-    height: 80px;
-    margin: 10px;
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
 }
-    
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
     padding: 10px;
+    margin: -1%;
 }
 
-ul li a{
-    color: white;
-    letter-spacing: 0.1rem;
+nav h1 {
+    font-size: 25px;
+    color: black;
 }
 
-ul li a:hover{
-    color: white;
-    text-decoration: underline;
-
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-.menu li{
-    float: left;
-    padding: 35px;
+nav ul li {
+    margin: 0 15px;
 }
 
-.menu li a{
+nav ul li a {
     text-decoration: none;
-
+    color: blue;
+    font-size: 1em;
 }
 
-form{
-    padding: 35px;
-    text-align: right;
+nav ul li a:hover {
+    color: darkblue;
 }
-h1{
-    text-align: left;
+
+nav form {
+    display: flex;
+    align-items: center;
+}
+
+nav form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+nav form input[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+nav form input[type="submit"]:hover {
+    background-color: darkblue;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: grey;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 15px;
+}
+footer button{ /* Bouton de la partie basse de la page */
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
     color: white;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
+footer button:hover{
+    background-color: darkblue;
+    border-color: darkgrey;
+}
