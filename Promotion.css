@@ -14,7 +14,8 @@ body{
     top: 0; /* nécéssaire pour que la barre soit toujours visible pour que les éléments soit tout en haut */
     background-color: grey;
 }
-.navbar .logo .h1{
+.navbar .logo a{
+    text-decoration: none;
     color: black;
 }
 .navbar .menu li{

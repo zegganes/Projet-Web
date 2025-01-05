@@ -14,9 +14,9 @@ body{
     top: 0;
     background-color: grey;
 }
-.navbar .logo .h1{
+.navbar .logo a{
+    text-decoration: none;
     color: black;
-    cursor: pointer;
 }
 .navbar .menu li{
     display: inline-block;
