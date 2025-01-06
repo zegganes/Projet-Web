@@ -52,9 +52,11 @@ main{
     border-radius: 10px; /* arrondire les bordure */
     width: 200px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre de la case */
     overflow: hidden; /* le texte ne depasse pas la case */
     padding: 10px;
+}
+.article:hover{
+    box-shadow: 0 4px 6px grey;
 }
 .article img{
     width: 100%;
