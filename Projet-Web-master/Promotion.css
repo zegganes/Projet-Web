@@ -70,8 +70,20 @@ main{
     background-color: grey;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.article .desc h2{
+    margin: 5px;
+    font-weight: 100;
+    font-size: medium;
+}
 .article .desc p{ /* description de chaque article */
     margin: 5px;
+    text-decoration: line-through;
+}
+.article .desc h3{
+    color: red;
+    margin: 5px;
+    font-weight: 100;
+    font-size: medium;
 }
 .article .desc button{ /* Bouton pour chaque articles */
     padding: 5px;
