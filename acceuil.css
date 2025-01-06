@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: black;
+    color: grey;
 }
 
 header {
@@ -11,21 +11,21 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    
+
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #222;
+    background-color: grey;
     padding: 10px;
     margin: -1%;
 }
 
 nav h1 {
-    font-size: 1.5em;
-    color: #fff;
+    font-size: 25px;
+    color: black;
 }
 
 nav ul {
@@ -41,13 +41,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #00baff;
+    color: blue;
     font-size: 1em;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-    color: #1e90ff;
+    color: darkblue;
 }
 
 nav form {
@@ -63,7 +62,7 @@ nav form input[type="text"] {
 }
 
 nav form input[type="submit"] {
-    background-color: #00baff;
+    background-color: blue;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -72,7 +71,7 @@ nav form input[type="submit"] {
 }
 
 nav form input[type="submit"]:hover {
-    background-color: #1e90ff;
+    background-color: darkblue;
 }
 
 main img {
@@ -84,19 +83,31 @@ h2 {
     text-align: center;
     margin: 20px 0;
     font-size: 2em;
-    color: #222;
+    color: white;
 }
 
 p {
     text-align: center;
     font-size: 1.2em;
-    color: #555;
+    color: grey;
 }
 
 footer {
     text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
-    margin-top: 20px;
+    background-color: black;
+    padding: 15px;
+}
+footer button{ /* Bouton de la partie basse de la page */
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color: darkblue;
+    border-color: darkgrey;
 }

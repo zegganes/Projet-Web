@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;/* pas de bord sur les cotés */
     padding: 0;/* pas de bord sur les cotés */
     height: 100%;
-    display: inline-flexbox;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -12,7 +15,7 @@ main{
     text-align: center;
 }
 .navbar{
-    padding: 15px 5%; /* Taille de la barre de naviguation*/
+    padding: 25px 5%; /* Taille de la barre de naviguation*/
     display: flex; /* Alignement des éléments horizontalement */
     justify-content: space-between; /*espace entre les éléments*/
     align-items: center;
@@ -20,7 +23,8 @@ main{
     top: 0;
     background-color: grey;
 }
-.navbar .logo .h1{
+.navbar .logo a{
+    text-decoration: none;
     color: black;
 }
 .navbar .menu li{
