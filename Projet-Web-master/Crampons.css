@@ -4,6 +4,7 @@
 }
 body{
     height: 100%;
+    background-color: rgb(41, 36, 36);
 }
 .navbar{
     padding: 25px 5%; /* Taille de la barre de naviguation*/
@@ -12,30 +13,27 @@ body{
     align-items: center;
     position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
     top: 0; /*nécéssaire pour position*/
-    background-color: grey;
+    background-color: rgb(32, 28, 28);
 }
 .navbar .logo a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navbar .menu li{
     display: inline-block; /*alignement de vêtements crampons...*/
 }
 .navbar .menu li a{/*chaque éléments de la barre de taches*/
     margin-left : 20px; /*marge entre vêtements crampons*/
-    color : black;
+    color : white;
     text-decoration: none;  /*Pour ne pas souligner les liens hypertexte*/
     font-size: 15px;
     font-weight: bold; /*Ecrire en gras*/
 }
 .navbar .menu li a:hover{ /*Quand on se deplace sur un éléments*/
-    color: blue;
+    color: rgb(3, 184, 255);
 }
 .navbar .menu li .Active{
-    color : blue;
-}
-.navbar .menu li .Active:hover{
-    color: darkblue;
+    color : rgb(3, 184, 255);
 }
 main{
     padding: 50px; /*ecart entre le main et la barre de tache*/
@@ -94,13 +92,13 @@ footer button{ /*bouton du footer*/
     padding: 10px;
     margin-right: 15px;
     margin-bottom: 10px;
-    background-color: blue;
+    background-color: rgb(28, 28, 210);
     color: white;
-    border-color: blue;
+    border-color: rgb(28, 28, 210);
     border-radius: 5px;
     cursor: pointer;
 }
 footer button:hover{
-    background-color: darkblue;
+    background-color: blue;
     border-color: darkgrey;
 }

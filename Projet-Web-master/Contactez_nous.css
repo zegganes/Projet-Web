@@ -21,11 +21,12 @@ main{
     align-items: center;
     position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
     top: 0;
-    background-color: grey;
+    background-color: black;
+    border-bottom: 2px solid white;
 }
 .navbar .logo a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navbar .menu li{
     display: inline-block;
@@ -33,47 +34,52 @@ main{
 .navbar .menu li a{
     display: block;
     margin-left : 20px;
-    color : black;
+    color : white;
     border-bottom: 4px solid transparent;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
 }
 .navbar .menu li a:hover{
-    color : blue
+    color : rgb(3, 184, 255);
 }
 .content{
     background-image: url(img/Contactez_nous.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0 5%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    text-align: center;
     height: 100vh;
+    color: white;
 }
-h1{
+h2{
     font-size: 35px;
-    margin-bottom: 8px;
+    margin-top: -45px;
+    margin-bottom: 5px;
 }
 .tableau{
-    background: grey;
+    margin: auto;
+    background: black;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px black;
+    height: auto;
     width: 100%;
     max-width: 500px;
+    font-size: large;
 }
 button{
-    background-color: blue;
+    background-color: rgb(28, 28, 210);
     color: white;
     padding: 10px;
-    border-color: blue;
+    border-color: rgb(28, 28, 210);
     border-radius: 5px;
     font-size: 10px;
     cursor: pointer;
 }
 button:hover{
-    background-color: darkblue;
+    background-color: blue;
 }
