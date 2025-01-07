@@ -4,7 +4,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: black;
 }
@@ -101,22 +100,13 @@ footer {
     background-color: black;
     padding: 15px;
 }
-footer button{ /* Bouton de la partie basse de la page */
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: blue;
-    color: white;
-    border-color: blue;
-    border-radius: 5px;
-    cursor: pointer;
-}
-footer button:hover{
-    background-color: darkblue;
-    border-color: darkgrey;
-}
 footer a{
     padding: 10px;
     text-decoration: none;
-    color: blue;
+    color: rgb(3, 184, 255);
     font-size: large;
+    cursor: pointer
+}
+footer a:hover{
+    color: blue;
 }
