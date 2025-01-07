@@ -103,6 +103,7 @@ footer a{ /* Bouton de la partie basse de la page */
     display: block;
     text-decoration:none;
     padding: 10px;
+    width: 100px;
     font-size:medium;
     margin-right: 15px;
     margin-bottom: 10px;
