@@ -22,7 +22,7 @@ main{
     position: sticky; /* Barre de naviguation toujourss visible meme quand on descend*/
     top: 0;
     background-color: black;
-    border-bottom: 2px solid white;
+    box-shadow: 0 0 20px white;
 }
 .navbar .logo a{
     text-decoration: none;
