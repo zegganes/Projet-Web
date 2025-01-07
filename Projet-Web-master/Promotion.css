@@ -97,11 +97,13 @@ main{
     border-color: darkgrey;
 }
 footer{ /* La partie basse de la page */
-    text-align: end;
-    padding: 15px;
+    padding: 35px;
 }
-footer button{ /* Bouton de la partie basse de la page */
+footer a{ /* Bouton de la partie basse de la page */
+    display: block;
+    text-decoration:none;
     padding: 10px;
+    font-size:medium;
     margin-right: 15px;
     margin-bottom: 10px;
     background-color: rgb(28, 28, 210);
@@ -110,7 +112,6 @@ footer button{ /* Bouton de la partie basse de la page */
     border-radius: 5px;
     cursor: pointer;
 }
-footer button:hover{
+footer a:hover{
     background-color: blue;
-    border-color: darkgrey;
 }
