@@ -1,112 +1,133 @@
-*{
+/* Change le défilement  */
+* {
     scroll-behavior: smooth;
 }
+
+/* Style général du corps de la page */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: black;
+    margin: 0; /* Supprime les marges */
+    padding: 0; 
+    background-color: white; /* Définit un fond blanc */
+    color: black; /* Texte noir par*/
 }
 
+/* Style de l'en-tête */
 header {
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 0 20px white;
+    background-color: black; /* Fond noir */
+    padding: 20px; /* Ajoute de l'espace interne */
+    text-align: center; /* Centre le texte */
+    position: sticky; /* Garde l'en-tête visible en haut en scrollant */
+    top: 0; /* Place l'en-tête tout en haut */
+    box-shadow: 0 0 20px white; /* Ajoute une ombre blanche autour */
 }
 
+/* Style du menu de navigation */
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    padding: 10px;
-    margin: -1%;
+    display: flex; /* Utilise un modèle flexbox */
+    justify-content: space-around; /* Répartit les éléments horizontalement */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    background-color: black; /* Fond noir */
+    padding: 10px; /* Espacement interne */
+    margin: -1%; /* Réduit  les marges */
 }
+
 
 nav h1 {
-    font-size: 25px;
-    color: white;
+    font-size: 25px; /* Taille de la police */
+    color: white; /* Texte blanc */
 }
 
+/* Style de la liste de navigation */
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; /* Pas de marges */
+    display: flex; /* Affiche les éléments sur une ligne */
 }
 
+/* Style des éléments de la liste */
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; 
 }
+
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1em;
+    text-decoration: none; 
+    color: white; /* Texte blanc */
+    font-size: 1em; /* Taille standard du texte */
 }
 
+/* Effet au survol des liens */
 nav ul li a:hover {
-    color: rgb(3, 184, 255) ;
+    color: rgb(3, 184, 255); /* Change la couleur au survol */
 }
 
+/* Style du formulaire de recherche */
 nav form {
-    display: flex;
-    align-items: center;
+    display: flex; /* Affiche les éléments en ligne */
+    align-items: center; /* Centre verticalement les éléments */
 }
 
+/* Style du champ de texte dans le formulaire */
 nav form input[type="text"] {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px;
+    padding: 5px; 
+    border: 1px solid #ccc; /* Bordure grise claire */
+    border-radius: 5px; /* Coins arrondis */
+    margin-right: 10px; /* Espacement à droite */
 }
 
+/* Style du bouton de soumission */
 nav form input[type="submit"] {
-    background-color: blue;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
+    background-color: blue; /* Fond bleu */
+    color: #fff; /* Texte blanc */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px 10px; /* Espacement interne */
+    cursor: pointer; /* Change le curseur au survol */
 }
 
+/* Effet au survol du bouton de soumission */
 nav form input[type="submit"]:hover {
-    background-color: darkblue;
+    background-color: darkblue; /* Change la couleur au survol */
 }
 
 main img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Occupe toute la largeur disponible */
+    height: auto; /* hauteur automatique */
 }
+
 
 h2 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2em;
-    color: black;
+    text-align: center; /* Centre le texte */
+    margin: 20px 0; /* Ajoute un espace autour */
+    font-size: 2em; /* Taille plus grande */
+    color: black; /* Texte noir */
 }
 
+/* Style des paragraphes */
 p {
-    text-align: center;
-    font-size: 1.2em;
-    color: black;
+    text-align: center; /* Centre le texte */
+    font-size: 1.2em; /* Texte un peut plus grand */
+    color: black; /* Texte noir */
 }
 
+/* Style du pied de page */
 footer {
-    text-align: center;
-    background-color: black;
-    padding: 15px;
+    text-align: center; /* Centre le texte */
+    background-color: black; /* Fond noir */
+    padding: 15px; 
 }
-footer a{
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(3, 184, 255);
-    font-size: large;
-    cursor: pointer
+
+/* Style des liens dans le pied de page */
+footer a {
+    padding: 10px; 
+    text-decoration: none; /* Supprime le soulignement */
+    color: rgb(3, 184, 255); /* Couleur bleue claire */
+    font-size: large; /* Texte plus grand */
+    cursor: pointer; /* Change le curseur au survol */
 }
-footer a:hover{
-    color: blue;
+
+/* Effet au survol des liens */
+footer a:hover {
+    color: blue; /* couleur au survol */
 }
