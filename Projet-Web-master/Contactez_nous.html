@@ -11,41 +11,44 @@
 <body>
     <nav class = "navbar">
         <div class = "logo"><a href="index.html"><h1>FPRO.FR</h1></a></div>
-            <ul class = "menu">
-                <li><a href="Vêtements.html">Vêtements</a></li>
-                <li><a href="Crampons.html">Crampons</a></li>
+            <ul class = "menu"> <!-- Liste representant la barre de naviguation -->
+                <li><a href="Vêtements.html">Vêtements</a></li> <!-- Lien hypertext vers chaque page -->
+                <li><a href="Crampons.html">Crampons</a></li> 
                 <li><a href="Promotion.html">Promotions</a></li>
-                <li><a href="#" class="fa-solid fa-user"></a></li>
-                <li><a href="#" class="fa-solid fa-cart-shopping"></a></li>
+                <li><a href="#" class="fa-solid fa-user"></a></li> <!-- Icone mon compte -->
+                <li><a href="#" class="fa-solid fa-cart-shopping"></a></li> <!-- Icone mon panier-->
                 <li><a href="https://www.google.com/maps/dir//413+Av.+Gaston+Berger,+13100+Aix-en-Provence/@43.5134241,5.3687508,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x12c98d8e9e0b3e41:0x7640a64b13faa8f5!2m2!1d5.4511515!2d43.5134537?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" class="fa-solid fa-location-dot"></a> <!-- Icône représentant l'emplacement (lien vers Google Maps) -->    
             </ul>
     </nav>
     <main>
         <section class="content">
-            <h2>Contactez nous</h2>
-            <table class="tableau">
-                <tr>
-                    <td><label for="nom">Nom :</label></td>
-                    <td><input type="text" id="nom" name="nom" required></td>
-                </tr>
-                <tr>
-                    <td><label for="prenom">Prénom :</label></td>
-                    <td><input type="text" id="prenom" name="prenom" required></td>
-                </tr>
-                <tr>
-                    <td><label for="email">Adresse mail :</label></td>
-                    <td><input type="email" id="email" name="email" required></td>
-                </tr>
-                <tr>
-                    <td><label for="message">Message :</label></td>
-                    <td><textarea id="message" name="message" rows="4" required></textarea></td>
-                </tr>
-                <tr>
-                    <td colspan="2" style="text-align: center;">
-                        <button>Envoyer</button>
-                    </td>
-                </tr>
-            </table>
+            <h2> Contactez nous</h2> <!-- Formulaire de contact -->
+            <form action="https://formspree.io/f/meoopgvv" method="POST"> <!-- Le formulaire envoie les données -->
+                <table class="tableau"> <!-- tableau pour le formulaire -->
+                    <tr>
+                        <td><label for="nom">Nom :</label></td> 
+                        <td><input type="text" id="nom" name="nom" required></td> <!-- Case pour entrer son nom et recquis pour envoyer--> 
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Prénom :</label></td> 
+                        <td><input type="text" id="prenom" name="prenom" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Adresse mail :</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message :</label></td>
+                        <td><textarea id="message" name="message" rows="4" required></textarea></td> <!-- case pour entrer son message avec 4 lignes pour plus de place-->
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;"> 
+                            <button>Envoyer</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </section>
     </main>
 </body>
+</html>
