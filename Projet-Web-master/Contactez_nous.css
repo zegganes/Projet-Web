@@ -35,51 +35,50 @@ main{
     display: block;
     margin-left : 20px;
     color : white;
-    border-bottom: 4px solid transparent;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
+    text-decoration: none; /*Pour que les liens hypertextes ne soit pas souligner*/
+    font-size: 15px; /*tailler*/
+    font-weight: bold; /*epaisseur*/
 }
-.navbar .menu li a:hover{
+.navbar .menu li a:hover{ /*Quand on se deplace sur les éléments hypertextes*/
     color : rgb(3, 184, 255);
 }
 .content{
-    background-image: url(img/Contactez_nous.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(img/Contactez_nous.jpg); /* Image de fond*/
+    background-size: cover; /* L'image de fond recouvre tout le main*/
+    background-repeat: no-repeat; /*L'image de fond ne se repete pas*/
     padding: 5%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     text-align: center;
     height: 100vh;
     color: white;
 }
-h2{
+h2{ /*Titre contactez nous au dessus du tableau*/
     font-size: 35px;
-    margin-top: -45px;
     margin-bottom: 5px;
 }
 .tableau{
     margin: auto;
     background: black;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px black;
+    border-radius: 15px; /*Arrondie des bordures*/
+    box-shadow: 0 4px 6px black; /*ombre du tableau*/
     height: auto;
     width: 100%;
     max-width: 500px;
     font-size: large;
 }
 button{
-    background-color: rgb(28, 28, 210);
+    background-color:  rgb(3, 184, 255);
     color: white;
     padding: 10px;
-    border-color: rgb(28, 28, 210);
+    border-color: rgb(3, 184, 255);
     border-radius: 5px;
     font-size: 10px;
-    cursor: pointer;
+    cursor: pointer; /*Quand on se deplace dessus la souris devient un pointer*/
 }
-button:hover{
+button:hover{ /*Quand on se deplace sur le bouton*/
     background-color: blue;
+    border-color: white;
 }
