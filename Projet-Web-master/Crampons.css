@@ -76,7 +76,7 @@ main{
 .article .desc button{ /*bouton pour chaque article*/
     padding: 5px;
     background-color: grey; /*couleur du bouton*/
-    border-color: grey; /*couleur des bordures du bouton*/
+    border-color: black; /*couleur des bordures du bouton*/
     border-radius: 5px;
     cursor: pointer; /*Lorsque l'on passe dessus notre souris devient un pointer*/
 }
@@ -97,7 +97,7 @@ footer a{ /* Bouton de la partie basse de la page */
     margin-bottom: 10px;
     background-color: rgb(28, 28, 210);
     color: white;
-    border-color: rgb(28, 28, 210);
+    border-color: white;
     border-radius: 5px;
     cursor: pointer;
 }
