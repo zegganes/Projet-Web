@@ -63,7 +63,7 @@ main{
 }
 .article .desc{ /* La case avec la description et le bouton */
     margin: 12px;
-    border: 1px solid grey;
+    border: 1px solid white;
     border-radius: 10px;
     width: 180px;
     text-align: center;
@@ -76,13 +76,13 @@ main{
 .article .desc button{ /* Bouton pour chaque articles */
     padding: 5px;
     background-color: grey; /* couleur du bouton */
-    border-color: grey; /* couleur de la bordure du bouton */
+    border-color: black; /* couleur de la bordure du bouton */
     border-radius: 5px;
     cursor: pointer; /* Lorsque l'on deplace notre souris dessus cela devient un pointer */
 }
 .article .desc button:hover{ /*Lorsque l'on passe notre souris sur le bouton */
     background-color: darkgrey;
-    border-color: darkgrey;
+    border-color: black;
 }
 footer{ /* La partie basse de la page */
     padding: 35px;
@@ -97,10 +97,11 @@ footer a{ /* Bouton de la partie basse de la page */
     margin-bottom: 10px;
     background-color: rgb(28, 28, 210);
     color: white;
-    border-color: rgb(28, 28, 210);
+    border-color: white;
     border-radius: 5px;
     cursor: pointer;
 }
 footer a:hover{
     background-color: blue;
+    border-color: white;
 }
