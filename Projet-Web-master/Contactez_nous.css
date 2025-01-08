@@ -73,7 +73,7 @@ button{
     background-color:  rgb(3, 184, 255);
     color: white;
     padding: 10px;
-    border-color: rgb(3, 184, 255);
+    border-color: white;
     border-radius: 5px;
     font-size: 10px;
     cursor: pointer; /*Quand on se deplace dessus la souris devient un pointer*/
