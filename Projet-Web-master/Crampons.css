@@ -82,7 +82,7 @@ main{
 }
 .article .desc button:hover{
     background-color: darkgrey;
-    border-color: darkgrey;
+    border-color: black;
 }
 footer{ /* La partie basse de la page */
     padding: 35px;
