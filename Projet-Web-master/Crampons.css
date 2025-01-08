@@ -63,7 +63,7 @@ main{
 }
 .article .desc{ /*case avec la descriptions et le bouton*/
     margin: 12px;
-    border: 1px solid grey;
+    border: 1px solid white;
     border-radius: 10px; /*bord arrondi*/
     width: 180px; /*taille de la box*/
     text-align: center;
@@ -103,4 +103,5 @@ footer a{ /* Bouton de la partie basse de la page */
 }
 footer a:hover{
     background-color: blue;
+    border-color: white;
 }
